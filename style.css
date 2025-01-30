@@ -1,0 +1,88 @@
+/*Code to customize background of the page*/
+body{
+  color:white;
+}
+
+/*Text Code*/
+.title{
+  color:burlywood;
+  text-align:left;
+}
+.text{
+  color:black;
+  text-align:center;
+}
+.text a{
+  text-decoration:underline;
+}
+p{
+  font-size:20px;
+}
+h6{
+  font-size:15px;
+}
+/*Code to customize images*/
+.images{
+  display:flex;
+  justify-content:center;
+}
+/*style for School images.*/
+.schools{
+  
+}
+.schoolE{
+  display:flex;
+  justify-content:center;
+}
+.schoolM{
+  display:flex;
+  justify-content:center;
+}
+.schoolH{
+ display:flex;
+  justify-content:center;
+
+}
+.schools img{
+  border-style:solid;
+  border-color:saddlebrown;
+  width:100px;
+  height:50px;
+  margin:5px;
+}
+img:hover{
+  width:800px;
+  height:400px;  
+}
+/*Write code to customize the links that will be buttons*/
+.links{
+flex-wrap:wrap;
+margin:5px;
+text-align:right;
+}
+/*Code in order to customize links that might be in text*/
+
+/*Code To customize a tag links*/
+a{
+  border-style:solid;
+  border-radius:10px;
+  text-decoration:none;
+  padding:3px;
+}
+a:link{
+  color:#b17528;
+}
+
+a:visited{
+  color:#b17528;
+}
+
+a:hover{
+color:#21a321;
+text-decoration:underline;
+font-size:20px;
+}  
+
+a:active{
+
+}
