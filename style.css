@@ -43,7 +43,6 @@ img{
   align-items:center;
   margin:10px;
   text-align:center;
-
 }
 .portfolio img{
   width:80%;
@@ -54,7 +53,6 @@ img{
 
 /*style for School images.*/
 .schools{
-
 }
 .schoolE{
   display:flex;
@@ -109,5 +107,4 @@ a:hover{
 }  
 
 a:active{
-
 }
