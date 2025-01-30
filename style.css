@@ -4,31 +4,57 @@ body{
 }
 
 /*Text Code*/
+
 .title{
   color:burlywood;
   text-align:left;
+  font-size:25px;
 }
 .text{
   color:black;
   text-align:center;
 }
-.text a{
-  text-decoration:underline;
-}
+
 p{
   font-size:20px;
+  text-align:center;
+  flex-wrap:wrap;
 }
 h6{
   font-size:15px;
 }
-/*Code to customize images*/
 .images{
-  display:flex;
-  justify-content:center;
+  padding:10px;
 }
+img{
+  width:500px;
+  height:200px; 
+}
+/* Code to style portfolio*/
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin:20px
+}
+.portfolio{
+  border-style:solid;
+  border-color:goldenrod;
+  align-items:center;
+  margin:10px;
+  text-align:center;
+
+}
+.portfolio img{
+  width:80%;
+}
+.portfolio p{
+  font-size:15px;
+}
+
 /*style for School images.*/
 .schools{
-  
+
 }
 .schoolE{
   display:flex;
@@ -39,7 +65,7 @@ h6{
   justify-content:center;
 }
 .schoolH{
- display:flex;
+  display:flex;
   justify-content:center;
 
 }
@@ -50,17 +76,16 @@ h6{
   height:50px;
   margin:5px;
 }
-img:hover{
+.schools img:hover{
   width:800px;
   height:400px;  
 }
 /*Write code to customize the links that will be buttons*/
 .links{
-flex-wrap:wrap;
-margin:5px;
-text-align:right;
+  flex-wrap:wrap;
+  margin:5px;
+  text-align:right;
 }
-/*Code in order to customize links that might be in text*/
 
 /*Code To customize a tag links*/
 a{
@@ -78,9 +103,9 @@ a:visited{
 }
 
 a:hover{
-color:#21a321;
-text-decoration:underline;
-font-size:20px;
+  color:#21a321;
+  text-decoration:underline;
+  font-size:20px;
 }  
 
 a:active{
